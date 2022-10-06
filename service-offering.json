@@ -1,15 +1,14 @@
 {
   "name": "Grafana",
   "serviceVendorId": "dac52253-a580-479a-84fe-2ca0ae90fb2c",
+  "serviceCategoryName": "Dashboard",
   "description": "Grafana is a multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources. A licensed Grafana Enterprise version with additional capabilities is also available as a self-hosted installation or an account on the Grafana Labs cloud service. It is expandable through a plug-in system. End users can create complex monitoring dashboards using interactive query builders. Grafana is divided into a front end and back end, written in TypeScript and Go, respectively.",
   "shortDescription": "Grafana is a multi-platform open source analytics and interactive visualization web application.",
   "deploymentType": "DOCKER_COMPOSE",
   "serviceOptionCategories": [],
   "serviceRequirements": [],
   "serviceRepositories": [],
-  "dotEnvFile": ".env",
-  "envFiles": ["env.list"],
-  "serviceCategoryName": "Dashboard",
-  "coverImageFilename": "grafana.png",
   "composeFilename": "docker-compose.yml"
+  "coverImageFilename": "grafana.png",
+  "envFilenames": ["env.list"],
 }
