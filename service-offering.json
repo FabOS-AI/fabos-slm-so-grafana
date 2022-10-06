@@ -8,7 +8,7 @@
   "serviceOptionCategories": [],
   "serviceRequirements": [],
   "serviceRepositories": [],
-  "composeFilename": "docker-compose.yml"
+  "composeFilename": "docker-compose.yml",
   "coverImageFilename": "grafana.png",
   "envFilenames": ["env.list"]
 }
