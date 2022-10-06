@@ -10,5 +10,5 @@
   "serviceRepositories": [],
   "composeFilename": "docker-compose.yml"
   "coverImageFilename": "grafana.png",
-  "envFilenames": ["env.list"],
+  "envFilenames": ["env.list"]
 }
