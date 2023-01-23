@@ -7,7 +7,6 @@ services:
     env_file:
     - env.list
     volumes:
-      - /opt/grafana/ldap.toml:/etc/grafana/ldap.toml
       - grafana_data:/var/lib/grafana
     ports:
       - "3000:3000"
